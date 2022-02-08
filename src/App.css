@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .App-logo {
@@ -35,4 +37,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.info-card {
+  margin-left: 25px;
+  text-align: start;
+}
+
+.rojo{
+  color: red;
+}
+
+.verde{
+  color: green;
+}
+
+.estado-vivo-muerto {
+ display: flex;
+ align-items: center;
+ justify-content: start;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 200px;
 }
